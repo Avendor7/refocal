@@ -1,5 +1,6 @@
 import React from 'react';
-import logo from './images/ReFocal.png';
+//import logo from './images/ReFocal.png';
+import logo from './images/ReFocal2.png';
 import Converter from './converterComponent/converter';
 import './App.css';
 
