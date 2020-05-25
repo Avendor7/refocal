@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './images/ReFocal.png';
+import Converter from './converterComponent/converter';
 import './App.css';
 
 function App() {
@@ -7,7 +8,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo"></img>
-        <input type="text"></input>
+        <br/>
+        <Converter/>
       </header>
     </div>
   );
