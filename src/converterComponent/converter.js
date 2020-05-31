@@ -29,7 +29,17 @@ class Converter extends React.Component{
                 onChange={this.handleChange}
                 />
             </form>
-                <h1>{this.converted}</h1>
+            <ul>
+                <li>Full Frame: {this.converted} mm</li>
+                <li>1-inch: {this.converted} mm</li>
+                <li>Micro 4/3: {this.converted} mm</li>
+                <li>APS-C (Canon): {this.converted} mm</li>
+                <li>APS-C (Nikon): {this.converted} mm</li>
+                <li>APS-H: {this.converted} mm</li>
+                <li>Medium Format (Crop): {this.converted} mm</li>
+                <li>Medium Format (Full): {this.converted} mm</li>
+                <li></li>
+            </ul>
             </div>
         )
     }
