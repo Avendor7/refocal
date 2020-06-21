@@ -1,0 +1,4 @@
+How to do conversion lookup for json
+
+Basically have a dropdown or select box that lets you pick the From
+Use that array in the json lookup table to spit out the conversions to each value in the array to the proper field on the page
