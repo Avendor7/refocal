@@ -1,31 +1,34 @@
 import React from 'react';
 
+var data = require('./lookupTable.json');
+
 class Converter extends React.Component{
     constructor(props){
         super(props);
-        this.state = { to35mm: '' };
+        this.state = { from: '' };
         this.converted = 0;
     }
     
     handleChange = event => {
-        this.setState({ to35mm: event.target.value });
+        this.setState({ from: event.target.value });
     };
     
     convert(apsc){
         var answer = apsc*1.53;
         return answer
     }
-
+    
     render(){
-        this.converted = this.convert(this.state.to35mm);
+        this.converted = this.convert(this.state.from);
+        
         return(
             <div className="converter">
                 <form>
-                <label htmlFor="to35mm">To 35mm</label>
+                <label htmlFor="from">From</label>
                 <input
                 type="text"
-                name="to35mm"
-                value={this.state.to35mm}
+                name="from"
+                value={this.state.from}
                 onChange={this.handleChange}
                 />
             </form>
