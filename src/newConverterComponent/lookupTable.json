@@ -1,0 +1,42 @@
+{
+    "1inch":{
+        "values": [ 1,1.36,1.69,1.78,2.11,2.72,3.47,4.25],
+        "name": "1inch",
+        "displayName": "1 Inch"
+    },
+    "micro43":{
+        "micro43":[0.73,1,1.24,1.31,1.55,2,2.55,3.12],
+        "name": "micro43",
+        "displayName": "Micro 4/3"
+    },
+    "apsccanon":{
+        "APSCCanon":[0.59,0.81,1,1.06,1.25,1.61,2.05,2.51],
+        "name": "apsccanon",
+        "displayName": "APS-C Canon"
+    },
+    "apscnikon":{
+        "APSCNikon":[0.56,0.76,0.95,1,1.118,1.53,1.94,2.38],
+        "name": "apsckinon",
+        "displayName": "APS-C Nikon"
+    },
+    "apsh":{
+        "APSH":[0.47,0.64,0.8,0.84,1,1.29,1.64,2.01],
+        "name": "apsh",
+        "displayName": "APS-H"
+    },
+    "fullframe":{
+        "FullFrame":[0.37,0.5,0.62,0.65,0.78,1,1.28,1.56],
+        "name": "fullframe",
+        "displayName": "Full Frame"
+    },
+    "mediumformatcrop":{
+        "MediumFormatCrop":[0.29,0.39,0.49,0.51,0.61,0.78,1,1.23],
+        "name": "mediumformatcrop",
+        "displayName": "Medium Format-Crop"
+    },
+    "mediumformatfull":{
+        "MediumFormatFull":[0.24,0.32,0.4,0.42,0.5,0.64,0.82,1],
+        "name": "mediumformatfull",
+        "displayName": "Medium Format Full Frame"
+    }
+}
