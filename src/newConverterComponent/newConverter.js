@@ -21,7 +21,7 @@ const NewConverter = () => {
         <div className="converter">
             
             {data.map((index)=>(
-                <p>{index.displayName}</p>
+                <p key={index.name}>{index.displayName}</p>
             ))}
             
             <button onClick={convert}>button</button>
