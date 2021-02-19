@@ -8,8 +8,8 @@ const NewConverter = () => {
 
     const convert = () => {
         
-        let tempdata = data.map((index)=>(
-            index.values = 4* parseFloat(index.values)
+        let tempdata = data.map((item)=>(
+            item.values = 4* parseFloat(item.values)
         ));
 
         setData(tempdata);
@@ -20,8 +20,8 @@ const NewConverter = () => {
     return ( 
         <div className="converter">
             
-            {data.map((index)=>(
-                <p key={index.name}>{index.displayName}</p>
+            {data.map((item)=>(
+                <p key={item.name}>{item.displayName}</p>
             ))}
             
             <button onClick={convert}>button</button>
