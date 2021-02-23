@@ -16,7 +16,7 @@ const NewConverter = () => {
         console.log(data);
        
     };
-    
+  
     return ( 
         <div className="converter">
            <form>
@@ -30,7 +30,7 @@ const NewConverter = () => {
             </form>
             <ul>
                 {data.map((item)=>(
-                    <li key={item.name} >{item.displayName}: {item.name}</li>
+                    <li key={item.name} >{item.displayName}: </li>
                 ))}
             </ul>
         </div> 
