@@ -19,12 +19,20 @@ const NewConverter = () => {
     
     return ( 
         <div className="converter">
-            
-            {data.map((item)=>(
-                <p key={item.name}>{item.displayName}</p>
-            ))}
-            
-            <button onClick={convert}>button</button>
+           <form>
+                <select name="to" id="to" >
+                    {data.map((item)=>(
+                        <option key={item.name} value={item.name}>{item.displayName}</option>
+                    ))}
+                </select>
+                <label htmlFor="from">From</label>
+                <input type="text" name="from" value="blah" />
+            </form>
+            <ul>
+                {data.map((item)=>(
+                    <li key={item.name} >{item.displayName}: {item.name}</li>
+                ))}
+            </ul>
         </div> 
     );
 }
