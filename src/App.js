@@ -13,7 +13,7 @@ function App() {
         <br/>
         <div className="row">
           <div className="column"><Converter/></div>
-          <div className="column"><NewConverter/></div>
+          {/* <div className="column"><NewConverter/></div> */}
         </div>
         
       </header>
